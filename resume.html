@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<title>JD's Personal Website</title>
+		<style>
+		.navbar { margin-top:0px !important; }
+		.navbar .navbar-nav {
+			display: inline-block;
+			float: none;
+		}
+		.jumbotron {
+			margin-bottom: 0px; !important
+		}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="jumbotron text-center" id="jumbo">
+				<h1>John K. Dott</h1>
+				<p>Outlining my professional and academic experiences, goals, and aspirations</p>			
+			</div>
+			<nav class="navbar navbar-default">
+				<div class="container-fluid text-center">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li class="active"><a href="resume.html">Resume</a></li>
+						<li><a href="projects.html">Projects</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<!--beginning of page-specific code-->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="embed-responsive" style='padding-bottom:75%'>
+					<object data="pdf/JKDResume.pdf" type="application/pdf">
+						<!--Fallback text-->
+						<p><b>This browser does not support PDFs</b> <a href="pdf/JKDResume.pdf">Download John Dott's Resume</a></p>
+					</object>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
