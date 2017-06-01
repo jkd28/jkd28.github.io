@@ -10,7 +10,7 @@ was to create a C utility to extract the metadata from a JPEG file.
 There were several outcomes from this project:
   * An increased understanding of the theory behind developing in the C Language
   * Experience working with the JPEG image format at the byte-level
-  * Application of C to accomplish a defined task
+  * Application of C to solve a problem and accomplish a defined task
 
 ### Example Run
 
@@ -31,3 +31,5 @@ Height:         240 pixels
 ```
 
 After compilation through `gcc` the utility can be run with `./exifview image_argument.jpg`
+
+You can view my code for this project [here](EXIF-Viewer-Code.md "EXIF Viewer Code")
