@@ -32,4 +32,4 @@ Height:         240 pixels
 
 After compilation through `gcc` the utility can be run with `./exifview image_argument.jpg`
 
-You can view my code for this project [here](EXIF-Viewer-Code.md "EXIF Viewer Code")
+You can view my code for this project [here](EXIF-Viewer-Code.html "EXIF Viewer Code")
