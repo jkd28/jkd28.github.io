@@ -1,6 +1,7 @@
 ---
 layout: no-title-post
 ---
+
 # JPEG EXIF Tag Viewer
 ### My First Assignment in C  
 I completed this project as part of my courseload for Pitt's Introduction to System Software (CS 0449) class.  The assignment 
