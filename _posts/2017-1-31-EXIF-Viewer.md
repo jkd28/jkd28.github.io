@@ -1,5 +1,5 @@
 ---
-layout: no-title-post
+layout: default
 ---
 
 # JPEG EXIF Tag Viewer
