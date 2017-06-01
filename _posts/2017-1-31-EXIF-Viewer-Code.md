@@ -1,4 +1,4 @@
-# EXIF Viewer Code
+## EXIF Viewer Code
 
 This is my C utility code as required for a class assignment.  I have not altered my code since submission in February 2017.
 {% highlight c %}
