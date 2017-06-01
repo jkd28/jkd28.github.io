@@ -2,7 +2,6 @@
 
 This is my C utility code as required for a class assignment.  I have not altered my code since submission in February 2017.
 {% highlight c %}
-```C
 /********************
 John Dott
 CS 449: Project 1 Part 2
@@ -184,5 +183,4 @@ int main(int argc, char *argv[]){
 	printf("Height:		%d pixels\n", height);
 	return 0;
 }
-```
 {% endhighlight %}
