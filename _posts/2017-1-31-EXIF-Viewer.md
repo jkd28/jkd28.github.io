@@ -9,7 +9,7 @@ was to create a C utility to extract the metadata from a JPEG file.
   
 There were several outcomes from this project:
   * An increased understanding of the theory behind developing in the C Language
-  * Experience working with an image file at the byte-level
+  * Experience working with the JPEG image format at the byte-level
   * Application of C to accomplish a defined task
 
 ### Example Run
