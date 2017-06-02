@@ -12,7 +12,7 @@ There were several outcomes from this project:
   * Experience working with the JPEG image format at the byte-level
   * Application of C to solve a problem and accomplish a defined task
 
-### Example Run
+### Example Output
 
 ```
 $ gcc -o exifview exifview.c
@@ -33,3 +33,5 @@ Height:         240 pixels
 After compilation through `gcc` the utility can be run with `./exifview image_argument.jpg`
 
 You can view my code for this project [here](EXIF-Viewer-Code.html "EXIF Viewer Code")
+
+All-in-all, this project was not horribly difficult; however, I did gain a better understanding of the C language.  The main challenges were in figuring out the exact layout of the TIFF tags and correctly gatherin the EXIF information as a whole.  These challenges were relatively easy to overcome through testing and reading documentation provided by my instructor.  
