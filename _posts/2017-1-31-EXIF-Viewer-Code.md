@@ -1,6 +1,7 @@
 ## EXIF Viewer Code
 
 This is my C utility code as required for a class assignment.  I have not altered my code since submission in February 2017.
+[Back to EXIF Viewer Project Post]({{ site.baseurl }}{% post_url 2017-01-31-EXIF-Viewer %})
 {% highlight c %}
 /********************
 John Dott
@@ -184,3 +185,5 @@ int main(int argc, char *argv[]){
 	return 0;
 }
 {% endhighlight %}
+
+[Back to EXIF Viewer Project Post]({{ site.baseurl }}{% post_url 2017-01-31-EXIF-Viewer %})
