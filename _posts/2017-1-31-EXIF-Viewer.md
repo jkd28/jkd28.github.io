@@ -34,4 +34,4 @@ After compilation through `gcc` the utility can be run with `./exifview image_ar
 
 You can view my code for this project [here](EXIF-Viewer-Code.html "EXIF Viewer Code")
 
-All-in-all, this project was not horribly difficult; however, I did gain a better understanding of the C language.  The main challenges were in figuring out the exact layout of the TIFF tags and correctly gatherin the EXIF information as a whole.  These challenges were relatively easy to overcome through testing and reading documentation provided by my instructor.  
+All-in-all, this project was not horribly difficult; however, I did gain a better understanding of the C language.  The main challenges were in figuring out the exact layout of the TIFF tags and correctly gathering the EXIF information as a whole while using a programming language that was new to me.  These challenges were relatively easy to overcome through testing and reading documentation provided by my instructor.  
