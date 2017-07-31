@@ -27,9 +27,9 @@ MileageQ and PriceQ are implemented exactly the same as each other, with a few c
 each functioning to the purpose of the class. The Queues work by implementing an array-based heap as discussed in lecture.
 This was the most efficient way for me to implement the heap structure, and also was the most familiar to me.
 
-| Operation | Description | Runtime |
-|-----------|-------------|---------|
-| Insert | Add the object to the last point of the heap array and swim the value up as necessary | O(logn) |                                                                                       |        |                                                   
-| Remove | Hash vin to get index of removed item, swap it with the last added value, and sink the swapped value down as necessary | O(logn) |  
-| Update | Hash vin to get index of item to update, update the car object as necessary | O(1) |
-| Minimum| Return the first value in the heap array | O(1) |
+| Operation | Description                                                                                                            | Runtime |
+|-----------|------------------------------------------------------------------------------------------------------------------------|---------|
+| Insert    | Add the object to the last point of the heap array and swim the value up as necessary                                  | O(logn) |                                                               
+| Remove    | Hash vin to get index of removed item, swap it with the last added value, and sink the swapped value down as necessary | O(logn) |  
+| Update    | Hash vin to get index of item to update, update the car object as necessary                                            | O(1)    |
+| Minimum   | Return the first value in the heap array                                                                               | O(1)    |
