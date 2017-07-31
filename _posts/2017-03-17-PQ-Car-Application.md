@@ -37,12 +37,12 @@ notation, where *n* is the number of cars:
 | Operation | Description                                                                                                            | Runtime |
 |-----------|------------------------------------------------------------------------------------------------------------------------|---------|
 | Insert    | Add the object to the last point of the heap array and swim the value up as necessary                                  | O(logn) |                                                               
-| Remove    | Hash vin to get index of removed item, swap it with the last added value, and sink the swapped value down as necessary | O(logn) |  
-| Update    | Hash vin to get index of item to update, update the car object as necessary                                            | O(1)    |
+| Remove    | Hash VIN to get index of removed item, swap it with the last added value, and sink the swapped value down as necessary | O(logn) |  
+| Update    | Hash VIN to get index of item to update, update the car object as necessary                                            | O(1)    |
 | Minimum   | Return the first value in the heap array                                                                               | O(1)    |
 
 ### Interesting Points  
-The most significant implementation detail is the use of Hashing.  Hashing the vin number made the most sense to me, since it would
+The most significant implementation detail is the use of Hashing.  Hashing the VIN number made the most sense to me, since it would
 always be unique to the vehicle, unlike the other attributes.  It is the hashing that gives this iimplementation of Priority
 Queue the "Indexable" trait.  This allowed me to keep an index of each vehicle as it was added to the data structure, and 
 significantly increased the runtimes of the available operations such as updates and removes, which would normally require
