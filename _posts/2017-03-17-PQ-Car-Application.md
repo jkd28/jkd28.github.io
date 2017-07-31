@@ -6,7 +6,7 @@ layout: default
 As part of my Algorithm Implementation class, I studied the theory and practice behind implementing Priority Queues (PQ) as
 as efficiently as possible.  This project acted as a supplement to our studies of PQs.  
 My codebase for this project is a bit too large to demonstrate all of it in a page like this, but please feel free to view 
-[my GitHub page](https://github.com/jkd28/COE1501-Project3) for the project.  
+<a href="https://github.com/jkd28/COE1501-Project3" target="_blank">my GitHub Project</a> for the project.  
 
 [View a Sample of my Priority Queue Implementation]({{ site.baseurl }}{% post_url 2017-03-17-PQ-Code-Example %})
 
