@@ -26,15 +26,10 @@ sorting/prioritizing based on two seperate values.
 MileageQ and PriceQ are implemented exactly the same as each other, with a few changes to individual methods in order to keep 
 each functioning to the purpose of the class. The Queues work by implementing an array-based heap as discussed in lecture.
 This was the most efficient way for me to implement the heap structure, and also was the most familiar to me.
-  * Specific Operations:
-    | Operation | Description | Runtime |
-    |-----------|-------------|---------|
-    | Insert | Add the object to the last point of the heap array (constant-time) and swim the value up as necessary     |
-    |        |   (logarithmic-time).                                                                                     |
-    |        |                                                   
-    | Remove | Hash vin to get index of removed item (constant-time), swap it with the last added value (constant-time), |
-    |        |   and sink the swapped value down as necessary (logarithmic-time).                                        |
-    |
-    |Update| Hash vin to get index of item to update (constant-time), update the car object as necessary (constant-time).
-    |
-    |Minimum| Return the first value in the heap array (constant-time).
+
+| Operation | Description | Runtime |
+|-----------|-------------|---------|
+| Insert | Add the object to the last point of the heap array and swim the value up as necessary | O(logn) |                                                                                       |        |                                                   
+| Remove | Hash vin to get index of removed item, swap it with the last added value, and sink the swapped value down as necessary | O(logn) |  
+| Update | Hash vin to get index of item to update, update the car object as necessary | O(1) |
+| Minimum| Return the first value in the heap array | O(1) |
